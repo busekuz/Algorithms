@@ -1,9 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <iostream>
-#include <ostream>
-
-using namespace std;
 
 void swap(int *a, int *b){
     int temp = *a;
@@ -52,12 +48,5 @@ void quickSort(int a[], int l, int r){
 
 
 int main(){
-
-    //Example array
-    int array_size = 5;
-    int a[array_size] = {1, 54, 3, 0, 7};
-
-    quickSort(a, 0, array_size - 1);
-
     return 0;
 }

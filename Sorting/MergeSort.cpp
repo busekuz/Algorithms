@@ -1,10 +1,5 @@
+#include <stdio.h>
 #include <stdlib.h>
-#include<iostream>
-#include <string>
-#include <fstream>
-#include <time.h>
-using namespace std;
-
 
 void swap(int *a, int *b)
 {
@@ -71,18 +66,6 @@ void mergeSort(int N, int array[], int start, int end){
 
 
 
-int main()
-{
-
-
-    int array_size = 5;
-    int a[array_size] = {1, 54, 3, 0, 7};
-
-    mergeSort(array_size, a, 0, array_size-1);
-    
-    for(int i = 0; i < array_size; i++){
-        cout << a[i] << endl;
-    }
+int main(){
     return 0;    
-
 }

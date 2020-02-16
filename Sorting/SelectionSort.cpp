@@ -1,40 +1,31 @@
+#include <stdio.h>
 #include <stdlib.h>
-#include<iostream>
-using namespace std;
 
-void insertionSort(int a[], int size){
+void swap(int *a, int *b){
+    int temp = *a;
+    *a = *b;
+    *b = temp;
+}
 
-    int i = 1;
-    int j, value;
+void selectionSort(int a[], int size){
 
-    while(i < size){
-        value = a[i];
-        j = i-1;
+    int min_index = -1;
 
-        //Move current element backwards until it is in the correct spot
-        while(a[j] > value && j >= 0){
-            a[j+1] = a[j];
-            j--;
+    for(int i = 0 ; i < size-1; i++){
+        min_index = i;
+        for(int j = i+1; j < size; j++){
+            if(a[j] < a[min_index]){
+                min_index = j;
+            }
         }
-        a[j+1] = value;
-        i++;
+        swap(&a[min_index], &a[i]);
     }
+
+
 }
 
 
 
-int main()
-{
-
-
-    int array_size = 6;
-    int a[array_size] = {1, 54, 1, 3, 0, 7};
-
-    insertionSort(a, array_size);
-    
-    for(int i = 0; i < array_size; i++){
-        cout << a[i] << endl;
-    }
+int main(){
     return 0;    
-
 }
