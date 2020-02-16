@@ -23,9 +23,3 @@ void selectionSort(int a[], int size){
 
 
 }
-
-
-
-int main(){
-    return 0;    
-}

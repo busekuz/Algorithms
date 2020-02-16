@@ -18,9 +18,3 @@ void insertionSort(int a[], int size){
         i++;
     }
 }
-
-
-
-int main(){
-    return 0;    
-}

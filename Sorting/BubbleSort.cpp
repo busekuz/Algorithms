@@ -26,8 +26,3 @@ void bubbleSort(int array[], int size){
         i--;
     }
 }
-
-
-int main(){
-    return 0;
-}

@@ -45,8 +45,3 @@ void quickSort(int a[], int l, int r){
     }
 
 }
-
-
-int main(){
-    return 0;
-}

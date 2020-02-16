@@ -63,9 +63,3 @@ void mergeSort(int N, int array[], int start, int end){
     }
 
 }
-
-
-
-int main(){
-    return 0;    
-}
