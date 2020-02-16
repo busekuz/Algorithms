@@ -7,7 +7,7 @@ Content will be updated through 2019-2020 semesters.
 - Sorting Algorithms
   - [x] Bubble Sort
   - [x] Insertion Sort
-  - [ ] Selection Sort
+  - [x] Selection Sort
   - [x] Quick Sort
   - [x] Merge Sort
   - [ ] Heap Sort
