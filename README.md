@@ -1,7 +1,8 @@
 # Algorithms
 
-This repository is created for Istanbul Technical University's _Analysis of Algorithms I and II_ courses.
-The data structures and algorithms that are covered in lectures/homeworks are implemented in C++.
+This repository is created for [Istanbul Technical University](http://global.itu.edu.tr/)'s _Analysis of Algorithms I and II_ courses.
+The data structures and algorithms that are covered in lectures and homeworks are implemented in C++.
+Content will be updated through 2019-2020 semesters.
 
 - Sorting Algorithms
   - [x] Bubble Sort
@@ -10,6 +11,8 @@ The data structures and algorithms that are covered in lectures/homeworks are im
   - [x] Quick Sort
   - [x] Merge Sort
   - [ ] Heap Sort
+  - [ ] Bucket Sort
+  - [ ] Radix Sort
   
 - Trees
   - [ ] Binary Search Tree
