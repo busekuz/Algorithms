@@ -15,6 +15,11 @@ Content will be updated through 2019-2020 semesters.
   - [ ] Radix Sort
   
 - Trees
-  - [ ] Binary Search Tree
+  - [x] Binary Tree Traversals
   - [ ] Red-Black Tree
 
+- Graphs
+  - [x] BFS
+  - [x] DFS
+  - [ ] Topological Sort
+  
